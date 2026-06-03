@@ -1,0 +1,10 @@
+l = [5,4,3,2,1]
+max1 = 0
+max2 = 0
+for i in l:
+    if i > max1:
+        max2 = max1
+        max1 = i
+    elif i > max2 and i != max1:
+        max2 = i
+print(max2)
